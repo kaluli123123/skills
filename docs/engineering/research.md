@@ -6,13 +6,13 @@ It does not answer you in the conversation. The output is a file, written where 
 
 ## When to reach for it
 
-Type `/research`, or the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) reaches for it automatically when a task turns into reading legwork.
+Type `/research`, or the [agent](https://www.aihero.dev/ai-coding-dictionary/agent) reaches for it automatically when substantial reading legwork should run in the background or leave a durable cited artifact.
 
-Reach for it when the next step is *finding something out* from outside the working directory (how a third-party API behaves, what a spec actually says, whether a version claim holds), and you'd rather not stall your own thread doing the reading. What you need decides which skill:
+Reach for it when the next step is *finding something out* from outside the working directory (how a third-party API behaves, what a spec actually says, whether a version claim holds), the investigation is substantial, and you'd rather not stall your own thread doing the reading. Keep ordinary fact lookups, brief product or API comparisons, and current spec checks in the active thread when they do not need a repository file. What you need decides which skill:
 
 | What you need | Reach for |
 | --- | --- |
-| An external fact a decision is waiting on | `research` |
+| A substantial external investigation that should leave a cited artifact | `research` |
 | A decision made *with* you, by interview | [grilling](https://aihero.dev/skills-grilling) |
 | A durable architecture decision, written into `CONTEXT.md` and ADRs | [grill-with-docs](https://aihero.dev/skills-grill-with-docs) |
 | To find out whether an approach works in your codebase | [prototype](https://aihero.dev/skills-prototype) |

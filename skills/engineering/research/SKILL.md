@@ -1,6 +1,6 @@
 ---
 name: research
-description: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.
+description: "Delegate substantial reading legwork to a background agent and save the findings as a cited Markdown file in the repository. Use when the user wants a durable research artifact, wants a substantial investigation performed in the background, or another skill delegates a research ticket. Do not use for ordinary fact lookups, brief product or API comparisons, current spec checks, or questions that can be answered directly in the active thread without creating a repository file."
 ---
 
 Spin up a **background agent** to do the research, so you keep working while it reads.
