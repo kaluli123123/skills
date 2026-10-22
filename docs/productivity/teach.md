@@ -47,7 +47,7 @@ It is also why the skill pushes back rather than obliges. A question that needs 
 
 ## Lessons, references and components
 
-A **lesson** is one self-contained HTML file, short enough to finish in a sitting, tied to the mission, giving one tangible win. It cites its sources, recommends one primary source to go and read yourself, and links to sibling lessons and reference documents.
+A **lesson** is one self-contained HTML file, short enough to finish in a sitting, tied to the mission, giving one tangible win. It opens by restating the original question, so the lesson remains identifiable when revisited or browsed in a catalog. It cites its sources, recommends one primary source to go and read yourself, and links to sibling lessons and reference documents.
 
 The split worth knowing: lessons are rarely revisited, reference documents are. So the compressed essence of a lesson (the syntax table, the algorithm, the pose sequence, the glossary) belongs in `reference/`, not buried in the lesson that introduced it.
 
