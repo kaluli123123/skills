@@ -29,9 +29,9 @@ So it does not validate anything, and it does not decide anything. It captures w
 
 ## Seams before prose
 
-Before it writes a word, `to-spec` sketches the **seams** the feature will be tested at, and checks them with you. It prefers seams that already exist to new ones, and takes the highest seam it can: the ideal number across a change is one.
+Before it writes a word, `to-spec` infers the **seams** the feature will be tested at from the conversation so far. It prefers seams that already exist to new ones, takes the highest seam it can, and records any uncertainty in the spec instead of starting a new interview. The ideal number across a change is one.
 
-Those agreed seams then travel. [tdd](https://aihero.dev/skills-tdd) works only at pre-agreed seams, and [code-review](https://aihero.dev/skills-code-review) reviews the diff against the spec, so a seam nobody agreed to shows up as a review finding. The binding is indirect: it runs through this document, which is exactly why the seam conversation is worth taking seriously here rather than deferring it to implementation.
+Those recorded seams then travel. [tdd](https://aihero.dev/skills-tdd) works only at pre-agreed seams, and [code-review](https://aihero.dev/skills-code-review) reviews the diff against the spec, so uncertainty that was not captured shows up as a review finding. The binding is indirect: it runs through this document, which is exactly why the earlier conversation must settle the seams rather than deferring them to implementation.
 
 ## Common questions
 
